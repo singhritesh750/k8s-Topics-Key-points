@@ -10,8 +10,8 @@ By default, k8s does not encrypt the data so we have to first encrypt it and the
 
 Run the command in shell to encrypt the data:
 
-'''bash
+```bash
 
 echo -n [DATA_TO_BE_ENCRYPT] | base64
 
-'''
+```
